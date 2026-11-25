@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RunSettings>
+  <NUnit>
+    <!--Controls max parallel threads (replace hardcoded [assembly:LevelOfParallelism)]-->
+    <NumberOfTestWorkers>2</NumberOfTestWorkers>
+  </NUnit>
+
+  <TestRunParameters>
+    <Parameter name ="Browser" value ="Chrome" />
+    <Parameter name ="Environment" value ="QA" />
+    <Parameter name ="BaseUrl" value = "https://www.amazon.com" />
+    <Parameter name="DbConnectionString" value="Server=localhost;Database=TestDB;Trusted_Connection=True;TrustServerCertificate=True;" />
+    <Parameter name="SendEmailReport" value="false" />
+    <Parameter name="SmtpHost" value="://gmail.com" />
+    <Parameter name="SmtpPort" value="587" />
+    <Parameter name="SmtpUser" value="your-email@gmail.com" />
+    <Parameter name="SmtpPassword" value="your-app-password" />
+    <Parameter name="ReportToEmail" value="team@example.com" />
+  </TestRunParameters>
+</RunSettings>

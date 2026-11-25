@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Debug" />
+    <BuildType Name="QA" />
+    <BuildType Name="Release" />
+  </Configurations>
+  <Project Path="Nunit_WebTest_Selenium/Nunit_WebTest_Selenium.csproj" />
+</Solution>

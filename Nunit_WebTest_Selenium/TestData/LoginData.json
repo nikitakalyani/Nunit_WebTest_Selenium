@@ -1,0 +1,12 @@
+[
+  {
+    "Username": "valid_user",
+    "Password": "Password123",
+    "ShouldSucceed": true
+  },
+  {
+    "Username": "locked_user",
+    "Password": "Password123",
+    "ShouldSucceed": false
+  }
+]
